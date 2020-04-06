@@ -1,0 +1,100 @@
+   47  sudo vi /etc/nginx/conf.d/default.conf
+   48  sudo vi /etc/php-fpm.d/www.conf
+   49  sudo systemctl restart nginx
+   50  systemctl stauts nginx.service
+   51  systemctlstauts nginx.service
+   52  systemctl status nginx.service
+   53  journalctl -xe
+   54  sudo systemctl restart nginx
+   55  sudo systemctl start php-fpm
+   56  sudo vi /etc/php-fpm.d/www.conf
+   57  sudo vi /etc/nginx/conf.d/default.conf
+   58  sudo sytemstl restart nginx
+   59  sudo systemctl restsrt nginx
+   60  sudo systemctl restart nginx
+   61  sudo systemctl start php-fpm
+   62  sudo vi /etc/nginx/conf.d/default.conf
+   63  sudo systemctl restart nginx
+   64  sudo system start php-fpm
+   65  sudo systemctl start php-fpm
+   66  sudo vi /etc/nginx/conf.d/default.conf
+   67  sudo systemctl restart nginx
+   68  sudo systemctl start php-fpm
+   69  sudo wget http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm
+   70  sudo rpm -Uvh mysql57-community-release-el7-7.noarch.rpm
+   71  sudo yum install -y mysql-community-server
+   72  mysql --version
+   73  sudo systemctl start mysqld
+   74  mysql -u root -p
+   75  sudo systemctl start mysqld
+   76  mysql -u root -p
+   77  sudo cat /var/log/mysqld.log | grep 'temporary password'
+   78  mysql -u root -p
+   79  brew list
+   80  brew cask install docker
+   81  exit
+   82  ls
+   83  ls /
+   84  cd vagrant
+   85  cd /vagrant
+   86  vi .gitignore
+   87  ls /
+   88  vi .gitignore
+   89  mv server_lesson/linux_practice2/documents/gizumo{1-19}.txt server_lesson/linux_practice2/documents/gizumo{1-19}.md
+   90  cd server_lesson
+   91  cd linux_practice2
+   92  cd document
+   93  cd documents
+   94  ls/
+   95  ls /
+   96  mv gizumo[1-19].txt gizumo[1-19].md
+   97  cd ../
+   98  vi gitignore
+   99  vi .gitignore
+  100  git status --ignored
+  101  git check-ignore
+  102  cd //
+  103  cd ../
+  104  cd vagrant
+  105  git log
+  106  git check-ignore
+  107  tree
+  108  git status --ignored
+  109  git add
+  110  git add .
+  111  git status --ignored
+  112  git status -a
+  113  history -100
+  114  git add .
+  115  git log
+  116  git add .
+  117  git commit -m "secontcommit"
+  118  git push origin master
+  119  git add .
+  120* 
+  121  git commit -m "gitignore 修正"
+  122  git push origin master
+  123  history -100
+  124  hisory -100
+  125  history -100
+  126  -c
+  127  history -100
+  128  git rm -r --cached .
+  129  git add -a
+  130  git commit -m "キャッシュ削除"
+  131  git push origin master
+  132  git add -a
+  133  git add -A
+  134  git commit -m "firstcommit"
+  135  git push origin master
+  136  git commit -m "キャッシュ削除"
+  137  git rm -r --cached .
+  138  git commit -m "キャッシュ削除"
+  139  git push origin master
+  140  git add -A
+  141  git commit -m "firstcommit"
+  142  git push origin master
+  143  git st
+  144  git status
+  145  git log
+  146  history 100
